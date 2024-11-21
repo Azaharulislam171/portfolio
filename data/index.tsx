@@ -265,7 +265,8 @@ export const navItems = [
       last_name: "Espinoza",
       portfolio: "https://sites.google.com/view/mikayla-long-cs-portfolio/home",
       intro: "Mikayla is a dedicated student with a passion for computer science, particularly in AI, game development, and research. She has excelled in developing complex projects, including 3D games, metaverse worlds, and public health research.",
-      linkedin: "https://www.linkedin.com/in/mikayla-e-long"
+      linkedin: "https://www.linkedin.com/in/mikayla-e-long",
+      img:"/2025_gabriel.jpg"
     },
 
     {
@@ -274,7 +275,8 @@ export const navItems = [
       last_name: "Souza",
       portfolio: " https://sites.google.com/nps.k12.nj.us/kenny-buesos-portfolio/my-projects",  // Add Kenny's portfolio link if available
       intro: "Kenny is a leader who consistently demonstrates attention to detail and a strong focus on overcoming technical challenges. Proficient in Algebra, Calculus, and various programming languages, he excels in both technical and hands-on skills, showing up first to class and striving for excellence.",
-      linkedin: ""  // Add Kenny's LinkedIn link if available
+      linkedin: "",  // Add Kenny's LinkedIn link if available
+      img:"/2025_kettlen.jpg"
     },
     {
       id:3,

@@ -12,6 +12,11 @@ const page = () => {
   <div className="m-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {students2025.map(student => (
       <div key={student.id} className="bg-inherit border-2  p-6 rounded-xl shadow-lg">
+        <img
+                    src={student.img}
+                    alt={`${student.first_name} ${student.last_name}`}
+                    className="w-20 h-20 rounded-full"
+                  />
         <h2 className="text-5xl  font-bold notable-headings  my-1 ms-2">
               {student.first_name}
             </h2>
