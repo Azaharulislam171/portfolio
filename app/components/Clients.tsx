@@ -6,7 +6,7 @@ import {testimonials } from "../../data/index";
 
 export function Clients() {
   return (
-    <div>
+    <div className="mx-auto">
       <div className=" text-3xl md:text-5xl font-semibold font-serif font-family:Georgia">
         Kind Words From  <span className="text-blue-400 dark:text-indigo-300"> Patrons...</span>
       </div>

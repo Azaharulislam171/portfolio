@@ -4,7 +4,7 @@ import { Button } from './ui/moving-border'
 
 const Experience = () => {
   return (
-    <div id="experience">
+    <div id="experience " className='mx-auto'>
     <div className=" py-20  text-3xl md:text-5xl font-semibold font-serif font-family:Georgia">
       My  <span className="text-blue-400 dark:text-indigo-300"> work experience...</span>
     </div>

@@ -8,8 +8,8 @@ import { IconLocationFilled } from "@tabler/icons-react";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
-      <h2 className=" text-3xl md:text-5xl text-center font-semibold font-serif font-family:lato">
+    <div className="py-20 mx-auto">
+      <h2 className=" text-3xl md:text-5xl font-semibold font-serif font-family:lato">
         A small selection of{" "}
         <span className=" text-blue-400 dark:text-indigo-300">recent projects...</span>
       </h2>
