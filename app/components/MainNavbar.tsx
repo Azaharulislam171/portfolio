@@ -5,7 +5,7 @@ import { ModeToggle } from './ModeToggle'
 import { IconFile, IconMessage, IconUser,IconComponents } from "@tabler/icons-react";
 export const MainNavbar = () => {
   return (
-    <div className='flex  justify-center   w-full bg-inherit shadow-md dark:shadow-indigo-400 z-100  '>
+    <div className='flex  justify-center mb-1    w-full bg-inherit shadow-md dark:shadow-indigo-400/40 z-100  '>
         
         <div className='p-1 m-1  text-inherit '>
             <Link href="/"><span className='sm:text-xs md:text-sm m-2 dark:hover:text-indigo-400 hover:text-blue-600'>// Home </span></Link>    
