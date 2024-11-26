@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BackgroundBeams } from "../components/ui/background-beams";
+import { BackgroundBeams } from "./ui/background-beams";
 import { TypewriterEffectSmooth } from "./ui/typewritter-effect";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
@@ -27,7 +27,7 @@ export function BackgroundBeamsDemo() {
   return (
     <div className="h-[48rem] w-full rounded-md bg-black-100 relative flex flex-col items-center justify-center antialiased">
       
-      <div className="max-w-2xl mx-auto p-4">
+      <div className="max-w-2xl ">
      
 
       <Spotlight/>

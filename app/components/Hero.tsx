@@ -1,10 +1,10 @@
 import React from 'react'
-import { BackgroundBeamsDemo } from './Bgbeams'
+import { BackgroundBeamsDemo } from './BackgroundBeamsDemo'
 
 const Hero = () => {
     
   return (
-    <div className='h-screen w-full'> 
+    <div className='h-screen '> 
     <BackgroundBeamsDemo/>
    
    
