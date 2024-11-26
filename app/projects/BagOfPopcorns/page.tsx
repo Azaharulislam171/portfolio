@@ -22,7 +22,7 @@ export default function BagOfPopcorns() {
             .
           </span>
         </p>
-        <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-1">
+        <h1 className="text-3xl md:text-5xl font-bold py-2">
         <Bubble text="Bag of Words Meets Bag of Popcorns" />
           
         </h1>
