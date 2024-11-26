@@ -1,6 +1,8 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import { MainNavbar } from "../components/MainNavbar";
+import Bubble from "../components/Bubble";
 
 
 export default function Listy() {
@@ -12,7 +14,7 @@ export default function Listy() {
     <div className=" mx-5 md:mx-32 mt-8 ">
         <div >
           <p className="text-sm">Web Development <span className="dark:text-indigo-600 text-blue-600 align-text-top">.</span> </p>
-          <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-10  "> Listy</h1>
+          <Bubble text="Listy | Your to-do scheduler..."/>
           <div className="flex justify-between">
             <p className="text-black-50 md:w-1/3 text-md font-serif"> Listy allows user to create a  to-do list and features a dashboard allowing users to focus on the most important tasks at hand. Some of the built-in features include options like creating labels(School, Soccer, Math-101 etc.), set tasks, modify tasks etc. Set task functionality includes a note taking option for further addition of tasks.  </p>
             <Link href="https://listyai.vercel.app/">

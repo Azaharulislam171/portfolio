@@ -49,7 +49,7 @@ const Bubble: React.FC<BubbleProps> = ({ text }) => {
       
 
       {/* Dynamic Text */}
-      <div className="text-3xl md:text-5xl md:py-20 font-bold py-1">
+      <div className="text-3xl md:text-5xl my-8 font-bold py-1">
         {text}
       </div>
     </div>
