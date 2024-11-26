@@ -1,27 +1,58 @@
 'use client'
-import Image from "next/image";
-import Link from "next/link";
-import { MainNavbar } from "../components/MainNavbar";
-import Bubble from "../components/Bubble";
 import { FloatingNavDemo } from "../components/navbar";
 import Experience from "../components/Experience";
-import ProjectCards from "../components/ProjectCards";
 import Approach from "../components/Approach";
 import { Grid } from "../components/Grid";
 import RecentProjeccts from "../components/RecentProjeccts";
 import { Clients } from "../components/Clients";
-import Hero from "../components/Hero";
-import { BackgroundBeamsDemo } from "../components/BackgroundBeamsDemo";
+import { BackgroundBeams } from "../components/ui/background-beams";
+import AnimatedImage from "../components/animated_image";
+import { TypewriterEffectSmooth } from "../components/ui/typewritter-effect";
+import AnimatedButton from "../components/ui/animatedButton";
+import FooterMain from "../components/FooterMain";
 
 
 export default function Listy() {
+  const words = [
+    {
+      text: "Seeker |",
+      className:" text-blue-400 dark:text-indigo-300",
+    },
+    {
+      text: "Developer |",
+      className:" text-blue-500 dark:text-indigo-400",
+    },
+    
+    {
+      text: "Educator...",
+      className: "text-blue-600 dark:text-indigo-500",
+    },
+  ];
   return (
     < >
      
     
     <div className=" mx-auto">
     <FloatingNavDemo/>
-    <BackgroundBeamsDemo/>
+    <div className="w-full flex flex-col items-center justify-center min-h-screen">
+      <div> <BackgroundBeams/></div>
+      <div className=" mt-32">
+        <AnimatedImage
+          src="/logo_ai.png"
+          alt="Description of the image"
+          className="w-84 h-80 "
+        />
+      </div>  
+      <div>
+        <TypewriterEffectSmooth words={words} />
+      </div>
+      <div>
+        <AnimatedButton />
+      </div>
+      
+    </div>
+
+
     <div className="  md:m-20 m-4">
    <section id="dev" className=" dark:bg-inherit">
     <Grid />
@@ -43,7 +74,9 @@ export default function Listy() {
       <Approach/>
     </section>
 
-    
+    <section id="footer" className=" dark:bg-inherit">
+      <FooterMain/>
+    </section>
 
    </div>
     

@@ -8,6 +8,10 @@ import Approach from "./components/Approach";
 import FooterMain from "./components/FooterMain";
 import { Grid } from "./components/Grid";
 import { MainNavbar } from "./components/MainNavbar";
+import { BackgroundBeams } from "./components/ui/background-beams";
+import AnimatedImage from "./components/animated_image";
+import { TypewriterEffectSmooth } from "./components/ui/typewritter-effect";
+import AnimatedButton from "./components/ui/animatedButton";
 
 
 
@@ -15,11 +19,47 @@ import { MainNavbar } from "./components/MainNavbar";
 
 
 export default function Home() {
+  const words = [
+    {
+      text: "Seeker |",
+      className:" text-blue-400 dark:text-indigo-300",
+    },
+    {
+      text: "Developer |",
+      className:" text-blue-500 dark:text-indigo-400",
+    },
+    
+    {
+      text: "Educator...",
+      className: "text-blue-600 dark:text-indigo-500",
+    },
+  ];
   return (
-    <main className="min-h-screen  bg-black-100 dark: text-sm">
+    < >
+     
+    
+    <div className=" mx-auto">
     <FloatingNavDemo/>
-    <Hero/>
-   <div className="  md:m-20 m-4">
+    <div className="w-full flex flex-col items-center justify-center min-h-screen">
+      <div> <BackgroundBeams/></div>
+      <div className=" mt-32">
+        <AnimatedImage
+          src="/logo_ai.png"
+          alt="Description of the image"
+          className="w-84 h-80 "
+        />
+      </div>  
+      <div>
+        <TypewriterEffectSmooth words={words} />
+      </div>
+      <div>
+        <AnimatedButton />
+      </div>
+      
+    </div>
+
+
+    <div className="  md:m-20 m-4">
    <section id="dev" className=" dark:bg-inherit">
     <Grid />
     </section>
@@ -46,11 +86,10 @@ export default function Home() {
 
    </div>
     
-    
+    </div>
 
 
     
-    
-    </main>
+   </>
   );
 }
