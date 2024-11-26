@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import Link from "next/link";
 
 const RandomMotionBox = () => {
   const logoRef = useRef<HTMLDivElement>(null);
@@ -45,15 +46,15 @@ const RandomMotionBox = () => {
   }, []); // Empty dependency array ensures this effect runs only once after the initial render
 
   return (
-    <div className="relative w-full  h-16  flex items-center justify-between px-8  overflow-hidden">
+    <div className="relative w-full  flex justify-center items-center  p-4  overflow-hidden mb-8">
       {/* Bubbles */}
-      {[...Array(5)].map((_, i) => (
+      {[...Array(7)].map((_, i) => (
         <div
           key={i}
           ref={(el) => {
             if (el) circlesRef.current[i] = el;
           }}
-          className="absolute w-8 h-8 rounded-full bg-blue-400 opacity-20"
+          className="absolute w-4 h-4 rounded-full bg-cyan-500 opacity-20 shadow-lg shadow-teal-400"
           style={{
             top: `${Math.random() * 100}%`,
             left: `${Math.random() * 100}%`,
@@ -62,24 +63,27 @@ const RandomMotionBox = () => {
       ))}
 
       {/* Logo */}
-      <div ref={logoRef} className="flex items-center">
+      <div ref={logoRef} className="flex items-start">
         <img src="/ai.png" alt="Logo" className="w-16 h-16 " />
       </div>
 
       {/* Links */}
       <div className="flex space-x-8">
-        <a href="#" className="hover:text-blue-400 transition-colors">
+        <Link href="/" className=" text-sm hover:text-blue-400 transition-colors">
           Home
-        </a>
-        <a href="#" className="hover:text-blue-400 transition-colors">
-          About
-        </a>
-        <a href="#" className="hover:text-blue-400 transition-colors">
-          Services
-        </a>
-        <a href="#" className="hover:text-blue-400 transition-colors">
-          Contact
-        </a>
+        </Link>
+        <Link href="/resume" className=" text-sm hover:text-blue-400 transition-colors">
+          Resume
+        </Link>
+        <Link href="/projects" className="hover:text-blue-400 transition-colors">
+          Projects
+        </Link>
+        <Link href="/courses" className="hover:text-blue-400 transition-colors">
+          Courses
+        </Link>
+        <Link href="/student_corner" className="hover:text-blue-400 transition-colors">
+          Student Corner
+        </Link>
       </div>
     </div>
   );

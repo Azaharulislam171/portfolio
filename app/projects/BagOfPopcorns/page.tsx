@@ -1,13 +1,16 @@
 'use client'
+import Bubble from "@/app/components/Bubble";
+import { MainNavbar } from "@/app/components/MainNavbar";
+import { FloatingNavDemo } from "@/app/components/navbar";
 import RandomMotionBox from "@/app/components/RandomMotionBox";
 import Image from "next/image";
 import Link from "next/link";
 
 
-export default function Home() {
+export default function BagOfPopcorns() {
   return (
     <>
-     <RandomMotionBox /> 
+     <FloatingNavDemo /> 
      <main className="mx-5 md:mx-32 mt-5">
       {/* FloatingNav or other components can be added here */}
       
@@ -19,8 +22,9 @@ export default function Home() {
             .
           </span>
         </p>
-        <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-10">
-          Bag of Words Meets Bag of Popcorns
+        <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-1">
+        <Bubble text="Bag of Words Meets Bag of Popcorns" />
+          
         </h1>
         <div className="flex justify-between">
           <p className="text-black-50 md:w-1/3 text-md font-serif">

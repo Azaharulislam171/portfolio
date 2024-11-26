@@ -88,7 +88,7 @@ export const navItems = [
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
-      caseLink:"/listy",
+      caseLink:"/projects/BagOfPopcorns",
     },
     {
       id: 3,
