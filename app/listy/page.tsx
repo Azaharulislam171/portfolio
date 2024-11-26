@@ -6,13 +6,14 @@ import { FloatingNavDemo } from "../components/navbar";
 import { BentoGridDemo } from "../components/BentoGriddemo";
 import MyScroll from "../components/scroll";
 import ParallaxImage from "../components/scroll";
+import { MainNavbar } from "../components/MainNavbar";
 
 
 export default function Home() {
   return (
     <main className=" mx-5 md:mx-32 mt-5 ">
      
-    <FloatingNavDemo/>
+    <MainNavbar/>
     <div >
         <p className="text-sm">Web Development <span className="dark:text-indigo-600 text-blue-600 align-text-top">.</span> </p>
       <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-10  "> Listy</h1>

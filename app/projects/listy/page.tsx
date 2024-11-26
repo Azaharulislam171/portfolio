@@ -1,20 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import Hero from "../../components/Hero";
-import { FloatingNav } from "../../components/ui/floating-navbar";
-import { FloatingNavDemo } from "../../components/navbar";
-
-import { BentoGridDemo } from "../../components/BentoGriddemo";
-import MyScroll from "../../components/scroll";
-import ParallaxImage from "../../components/scroll";
+import { MainNavbar } from "@/app/components/MainNavbar";
 
 
 export default function Home() {
   return (
-    <main className=" mx-5 md:mx-32 mt-5 ">
-     
-    <FloatingNavDemo/>
-    <div >
+
+    <div>  
+   <MainNavbar/>
+    <div  className=" mx-auto mt-4">
         <p className="text-sm">Web Development <span className="dark:text-indigo-600 text-blue-600 align-text-top">.</span> </p>
       <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-10  "> Listy</h1>
       <div className="flex justify-between">
@@ -34,15 +28,15 @@ export default function Home() {
 
     <div className=" flex items-center justify-center pt-8 ">  
       <Image
-        src="/ListyBanner.png"
+        src="/ListyBannerpng"
         width={12000}
         height={500}
         alt="Picture of the author"
       />
- </div>
+    </div>
   
     
     
-    </main>
+    </div>
   );
 }

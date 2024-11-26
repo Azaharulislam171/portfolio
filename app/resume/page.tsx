@@ -1,10 +1,11 @@
 import React from 'react'
 import { FloatingNavDemo } from '../components/navbar'
+import { MainNavbar } from '../components/MainNavbar'
 
 const Resume = () => {
   return (
     <>
-      <FloatingNavDemo/>
+      <MainNavbar/>
      <div className="flex justify-center items-center ">
     <object
       data="/resume.pdf"  // Path to your PDF file in the public folder

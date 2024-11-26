@@ -7,7 +7,8 @@ import Experience from "./components/Experience";
 import Approach from "./components/Approach";
 import FooterMain from "./components/FooterMain";
 import { Grid } from "./components/Grid";
-import { MainNavbar } from "./components/mainNavbar";
+import { MainNavbar } from "./components/MainNavbar";
+
 
 
 
@@ -16,7 +17,6 @@ import { MainNavbar } from "./components/mainNavbar";
 export default function Home() {
   return (
     <main className="min-h-screen  bg-black-100 dark: text-sm">
-    <MainNavbar/>
     <FloatingNavDemo/>
     <Hero/>
    <div className="  md:m-20 m-4">
