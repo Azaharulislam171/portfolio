@@ -3,13 +3,13 @@ import Link from "next/link";
 import { MainNavbar } from "@/app/components/MainNavbar";
 
 
-export default function Home() {
+export default function Listy() {
   return (
 
     <div>  
    <MainNavbar/>
-    <div  className=" mx-auto mt-4">
-        <p className="text-sm">Web Development <span className="dark:text-indigo-600 text-blue-600 align-text-top">.</span> </p>
+    <div  className=" mx-auto bg-blue-100 mt-4">
+        <p className="text-sm bg-orange-300">Web Development <span className="dark:text-indigo-600 text-blue-600 align-text-top">.</span> </p>
       <h1 className="text-5xl md:text-7xl md:py-20 font-bold py-10  "> Listy</h1>
       <div className="flex justify-between">
       <p className="text-black-50 md:w-1/3 text-md font-serif"> Listy allows user to create a  to-do list and features a dashboard allowing users to focus on the most important tasks at hand. Some of the built-in features include options like creating labels(School, Soccer, Math-101 etc.), set tasks, modify tasks etc. Set task functionality includes a note taking option for further addition of tasks.  </p>
