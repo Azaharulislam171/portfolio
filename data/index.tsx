@@ -78,7 +78,7 @@ export const navItems = [
       img: "/listy-banner.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fb.png"],
       link: "https://listyai.vercel.app/",
-      caseLink:"/listy",
+      caseLink:"/projects/listy",
     },
     {
       id: 2,

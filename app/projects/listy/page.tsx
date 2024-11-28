@@ -1,8 +1,10 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import { MainNavbar } from "../components/MainNavbar";
-import Bubble from "../components/Bubble";
+import { MainNavbar } from "@/app/components/MainNavbar";
+import Bubble from "@/app/components/Bubble";
+import FooterMain from "@/app/components/FooterMain";
+import FooterSmall from "@/app/components/FooterSmall";
 
 
 export default function Listy() {
@@ -49,10 +51,13 @@ export default function Listy() {
               </button>
             </Link>
         </div>
+        
+      <div> 
+        <FooterSmall/>
+      </div>
     </div>
    
-  
-    
+
     
     </>
   );
