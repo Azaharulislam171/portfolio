@@ -181,25 +181,26 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
+      title: "Teacher of Computer Science, Newark Board Of Education",
+      desc: "Currently working to inspire students to code at Technology High School",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp3.svg",
+    },
+    {
+      id: 2,
       title: "Research Assistant, SocialXLab",
       desc: "Worked to uncover User Needs for Metaverse Concert Attendees",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
-      id: 2,
-      title: "Teacher Assistant, NJIT",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      id: 3,
+      title: "Teacher Assistant, New Jersey Institute of Technology",
+      desc: "Designed and developed courses for Intro to Web Development ",
       className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
-    {
-      id: 3,
-      title: "Teacher of Computer Science, NBOE",
-      desc: "Currently working to inspire high school students",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
+   
     {
       id: 4,
       title: "Project Manager, SPS",

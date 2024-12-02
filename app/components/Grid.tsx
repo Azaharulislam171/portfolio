@@ -273,7 +273,7 @@ const SkeletonFive = () => {
         className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2  dark:bg-sky-900"
       >
         <Image
-          src="/ai.png"
+          src="/vercel.svg"
           alt="avatar"
           height="100"
           width="100"
@@ -441,7 +441,7 @@ const items = [
       </span>
     ),
     header: <SkeletonSix />,
-    className: "md:col-span-2",
+    className: "md:col-span-3",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];

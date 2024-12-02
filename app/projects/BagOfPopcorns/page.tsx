@@ -34,6 +34,7 @@ export default function BagOfPopcorns() {
             Processing (NLP) techniques, including tokenization, vectorization, and
             used machine learning models like Random Forest for classification.
           </p>
+        
           
           <Link href="https://www.kaggle.com/code/azaharulislam/is392-sp23-c4/notebook" passHref>
             <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">

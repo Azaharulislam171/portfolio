@@ -86,48 +86,48 @@ const Approach = () => {
   return (
     <div id="Approach">
     <div className=" py-20  text-3xl md:text-5xl font-semibold font-serif font-family:Georgia">
-      My  <span className="text-blue-400 dark:text-indigo-300"> Approaach...</span>
+      My  <span className="text-blue-400 dark:text-indigo-300"> Approach...</span>
     </div>
 
     <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-inherit w-full gap-4 mx-auto px-8">
-        <Card 
-        title="Planning and Strategy" 
-        icon={<AceternityIcon order="Phase-1" />}
-        description= " I will collaborate to map out your website's goals, targer audience and key functionalaities."
-        >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            containerClassName="bg-blue-900"
-          />
-        </Card>
-        <Card 
-        title="Nisha is Munni" 
-        icon={<AceternityIcon order="Phase-2" />}
-        description= " I will collaborate to map out your website's goals, targer audience and key functionalaities."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
-            dotSize={2}
-          />
+  <Card 
+    title="Requirement Analysis" 
+    icon={<AceternityIcon order="Phase-1" />}
+    description="Collaborating with you to define project goals, gather technical requirements, and outline key functionalities for your application."
+  >
+    <CanvasRevealEffect
+      animationSpeed={5.1}
+      containerClassName="bg-gray-900"
+    />
+  </Card>
+  <Card 
+    title="Architecture and Design" 
+    icon={<AceternityIcon order="Phase-2" />}
+    description="Crafting scalable architectures and designing intuitive user interfaces while focusing on performance and security."
+  >
+    <CanvasRevealEffect
+      animationSpeed={3}
+      containerClassName="bg-black"
+      colors={[
+        [236, 72, 153],
+        [232, 121, 249],
+      ]}
+      dotSize={2}
+    />
+  </Card>
+  <Card 
+    title="Development and Deployment" 
+    icon={<AceternityIcon order="Phase-3" />}
+    description="Building, testing, and deploying your application with a focus on clean code, best practices, and seamless user experience."
+  >
+    <CanvasRevealEffect
+      animationSpeed={3}
+      containerClassName="bg-sky-600"
+      colors={[[125, 211, 252]]}
+    />
+  </Card>
+</div>
 
-        </Card>
-        <Card 
-        title="Munni is Aditi" 
-        icon={<AceternityIcon order="Phase-3" />}
-        description= " I will collaborate to map out your website's goals, targer audience and key functionalaities."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
-      </div>
 
     </div>
 
