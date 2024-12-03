@@ -10,6 +10,7 @@ import AnimatedImage from "../components/animated_image";
 import { TypewriterEffectSmooth } from "../components/ui/typewritter-effect";
 import AnimatedButton from "../components/ui/animatedButton";
 import FooterMain from "../components/FooterMain";
+import { MainNavbar } from "../components/MainNavbar";
 
 
 export default function Listy() {
@@ -33,57 +34,10 @@ export default function Listy() {
      
     
     <div className=" mx-auto">
-    <FloatingNavDemo/>
-    <div className="w-full flex flex-col items-center justify-center min-h-screen">
-      <div> <BackgroundBeams/></div>
-      <div className=" mt-32">
-        <AnimatedImage
-          src="/logo_ai.png"
-          alt="Description of the image"
-          className="w-84 h-80 "
-        />
-      </div>  
-      <div>
-        <TypewriterEffectSmooth words={words} />
-      </div>
-      <div>
-        <AnimatedButton />
-      </div>
-      
+    <MainNavbar/>
+    <Grid/>
+   
     </div>
-
-
-    <div className="  md:m-20 m-4">
-   <section id="dev" className=" dark:bg-inherit">
-    <Grid />
-    </section>
-
-    <section id="recent_projects" className=" dark:bg-inherit">
-      <RecentProjeccts/>
-    </section>
-
-    <section id="clients" className=" dark:bg-inherit">
-      <Clients/>
-    </section>
-
-    <section id="experience" className=" dark:bg-inherit">
-      <Experience/>
-    </section>
-
-    <section id="approach" className=" dark:bg-inherit">
-      <Approach/>
-    </section>
-
-    <section id="footer" className=" dark:bg-inherit">
-      <FooterMain/>
-    </section>
-
-   </div>
-    
-    </div>
-
-
-    
    </>
   );
 }

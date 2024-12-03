@@ -9,26 +9,21 @@ const page = () => {
   return (
     <>
     <MainNavbar/>
-    <div className=''>
-
-    </div>
-    <div >
-    <ProjectCards category={category} />
-    </div>
-    {/*
-      <div className="grid grid-cols-5 h-screen">
+    
+   
+      <div className="flex h-screen">
        
-        <div className="col-span-1 ">
+        <div className="col-span-1  ">
           <Sidebar setCategory={setCategory} />
         </div>
        
-        <div className="col-span-4 h-screen overflow-auto">
+        <div className="col-span-4 h-screen overflow-auto m-4">
           <ProjectCards category={category} />
         </div>
       </div>
      
-      */
-    }
+      
+    
     
 
     </>
