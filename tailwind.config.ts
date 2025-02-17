@@ -56,6 +56,13 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      backgroundImage: {
+        // Add this custom gradient for dark mode
+        "dark-gradient": " linear-gradient(153deg, rgba(129,123,233,1) 5%, rgba(65,17,203,0.43883490896358546) 37%, rgba(196,198,199,1) 100%)",
+        "white-gradient": "radial-gradient(circle, rgba(126,192,233,1) 0%, rgba(251,251,251,1) 21%, rgba(255,255,255,1) 100%)",
+        "white-linear" : "linear-gradient(30deg, rgba(126,192,233,0.6853335084033614) 0%, rgba(251,251,251,1) 21%, rgba(255,255,255,1) 100%)"
+
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

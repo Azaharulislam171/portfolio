@@ -1,6 +1,8 @@
+'use client'
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/moving-border'
+import Link from 'next/link'
 
 const Experience = () => {
   return (
@@ -11,18 +13,24 @@ const Experience = () => {
 
     <div className="w-full mt-12 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">
         {workExperience.map((card) => (
+         
           <Button
             key={card.id}
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
             className="flex-1 text-black bg-inherit dark:text-white border-neutral-200 dark:border-slate-800"
+            onClick={() => window.open(card.link, '_blank')} // Open in a new tab
+            
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
+              <Link key={card.id} href={card.link}>
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
                 className="lg:w-48  md:w-20 w-16"
               />
+              </Link>
+              
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
@@ -32,7 +40,9 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-          </Button>))}
+          </Button>
+        
+        ))}
   </div>
 
   </div>

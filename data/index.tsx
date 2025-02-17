@@ -82,22 +82,22 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      category:"web",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Bag of Popcorns ",
+      category:"data-science",
+      des: "Using sentiment analysis to uncover movie reviews as positive or negative",
+      img: "/bagOfpopcorns.png",
+      iconLists: [],
+      link: "https://www.kaggle.com/code/azaharulislam/is392-sp23-c4/notebook",
       caseLink:"/projects/BagOfPopcorns",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
+      title: "BellaBeat case Study",
       category:"data-analysis",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      des: "Analyzing bellabeat user behaviors to make marketing predictions",
+      img: "/bellabeat.png",
+      iconLists: [],
+      link: "https://www.kaggle.com/code/azaharulislam/bellabeat#CONCLUSION",
       caseLink:"/listy",
     },
     {
@@ -184,21 +184,24 @@ export const navItems = [
       title: "Teacher of Computer Science, Newark Board Of Education",
       desc: "Currently working to inspire students to code at Technology High School",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/nboe.png",
+      link: "https://www.nps.k12.nj.us/tec/school-staff/faculty/",
     },
     {
       id: 2,
       title: "Research Assistant, SocialXLab",
       desc: "Worked to uncover User Needs for Metaverse Concert Attendees",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/socialXlab.png",
+      link: "https://socialinteractionlab.com/people/",
     },
     {
       id: 3,
       title: "Teacher Assistant, New Jersey Institute of Technology",
-      desc: "Designed and developed courses for Intro to Web Development ",
+      desc: "Designed and developed courses for Intro to Web Development and Intro to empirical research under Dr. Osama Eljabiri ",
       className: "md:col-span-2", 
-      thumbnail: "/exp2.svg",
+      thumbnail: "/njit.png",
+      link: "https://people.njit.edu/profile/oe2",
     },
    
     {
@@ -206,7 +209,8 @@ export const navItems = [
       title: "Project Manager, SPS",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/sps.png",
+      link: "/",
     },
   ];
   
@@ -265,7 +269,7 @@ export const navItems = [
       first_name: "Gabriel ",
       last_name: "Espinoza",
       portfolio: "https://sites.google.com/view/mikayla-long-cs-portfolio/home",
-      intro: "Mikayla is a dedicated student with a passion for computer science, particularly in AI, game development, and research. She has excelled in developing complex projects, including 3D games, metaverse worlds, and public health research.",
+      intro: "Gabriel Espinoza is an exceptionally talented student whose natural affinity for programming sets him apart as one of the sharpest in the class. With an innate ability to grasp complex concepts and an unwavering focus on precision, Gabriel consistently takes on the most challenging projects, demonstrating both technical mastery and creative problem-solving. He is a regular candidate for the teacher of the day, often helping his peers understand difficult topics with clarity and patience. His determination and skills make it clear that Gabriel is destined for a high-achieving career in computer science, where his potential will undoubtedly lead to great success",
       linkedin: "https://www.linkedin.com/in/mikayla-e-long",
       img:"/2025_gabriel.jpg"
     },
@@ -274,8 +278,8 @@ export const navItems = [
       id: 2,
       first_name: "Katleen",
       last_name: "Souza",
-      portfolio: " https://sites.google.com/nps.k12.nj.us/kenny-buesos-portfolio/my-projects",  // Add Kenny's portfolio link if available
-      intro: "If I am to describe three qualities that set Kettlen apart from others, those would be persistence, curiosity, and leadership. She has worked on numerous computer science projects under my guidance, and I have always been relieved when she took on a leadership role. She naturally inspires her peers by fostering collaboration and guiding them through technical and conceptual challenges. Kettlen's curiosity drives her to explore complex problems beyond the classroom, often engaging in extracurricular coding competitions and community tech workshops. Her persistence ensures that she not only sees her own projects through to completion but also motivates her peers to do the same.In addition to her technical skills, Kettlen demonstrates a strong commitment to her school and local community. She has volunteered to mentor younger students in programming, helping them develop foundational skills while building their confidence. Her approach is always empathetic and patient, ensuring that others feel supported and valued.Kettlen’s character shines brightest in her ability to balance her personal achievements with a genuine desire to uplift others. Whether it’s through a thoughtful word of encouragement or taking the lead on a challenging group assignment, she embodies the values of integrity, compassion, and responsibility. It has been a privilege to witness her growth, and I am confident she will continue to excel in any community she becomes a part of.",
+      portfolio: " https://sites.google.com/view/kettlen-student-portfolio/projects",  // Add Kenny's portfolio link if available
+      intro: "If I am to describe three qualities that set Kettlen apart from others, those would be persistence, curiosity, and leadership. She has worked on numerous computer science projects under my guidance, and I have always been relieved when she took on a leadership role. She naturally inspires her peers by fostering collaboration and guiding them through technical and conceptual challenges. Kettlen's curiosity drives her to explore complex problems beyond the classroom, often engaging in extracurricular coding competitions and community tech workshops. Her persistence ensures that she not only sees her own projects through to completion but also motivates her peers to do the same.",
       linkedin: "",  // Add Kenny's LinkedIn link if available
       img:"/2025_kettlen.jpg"
     },
@@ -283,9 +287,10 @@ export const navItems = [
       id:3,
       first_name:"Ramon ",
       last_name:"Parachio",
-      portfolio: "https://sites.google.com/view/port-mariananolasco/home",  // Add Kenny's portfolio link if available
-      intro: " As Mariana's teacher, I've been consistently impressed by her outstanding management skills and her ability to juggle multiple responsibilities with ease. Whether leading her peers in extracurricular activities or staying on top of her assignments, she consistently demonstrates a strong work ethic and a deep commitment to excellence. Her eagerness to learn and her attention to detail set her apart, making her a reliable and inspiring student who always goes above and beyond expectations.",
-      linkedin: "" 
+      portfolio: "https://sites.google.com/nps.k12.nj.us/ramonparachico/projects",  // Add Kenny's portfolio link if available
+      intro: "Ramon Parachio is a highly skilled and self-driven student who has consistently excelled in advanced computer science projects. Notably, he developed a sophisticated restaurant management system using Python and Tkinter, showcasing his ability to integrate technical skills with real-world applications. Ramon has also mastered Git version control and GitHub, demonstrating proficiency in collaborative coding environments. His ability to work independently with minimal guidance is complemented by his capability to take on leadership roles, inspiring and guiding peers through complex challenges. Ramon’s technical expertise, resourcefulness, and leadership make him a standout student poised for success in his future endeavors.",
+      linkedin: "" ,
+      img:"/2025_ramon.jpg"
     }
     // Add more students here
   ];

@@ -6,12 +6,11 @@ import { Clients } from "./components/Clients";
 import Experience from "./components/Experience";
 import Approach from "./components/Approach";
 import FooterMain from "./components/FooterMain";
-import { Grid } from "./components/Grid";
-import { MainNavbar } from "./components/MainNavbar";
 import { BackgroundBeams } from "./components/ui/background-beams";
 import AnimatedImage from "./components/animated_image";
 import { TypewriterEffectSmooth } from "./components/ui/typewritter-effect";
 import AnimatedButton from "./components/ui/animatedButton";
+import MyGrid from "./components/MyGrid";
 
 
 
@@ -60,18 +59,14 @@ export default function Home() {
 
 
     <div className="  md:m-20 m-4">
-   <section id="dev" className=" dark:bg-inherit">
-    <Grid />
+   <section id="Grid" className=" dark:bg-inherit">
+   <MyGrid/>
     </section>
 
     <section id="recent_projects" className=" dark:bg-inherit">
       <RecentProjeccts/>
     </section>
-
-    <section id="clients" className=" dark:bg-inherit">
-      <Clients/>
-    </section>
-
+    
     <section id="experience" className=" dark:bg-inherit">
       <Experience/>
     </section>
@@ -80,9 +75,13 @@ export default function Home() {
       <Approach/>
     </section>
 
+    
+   
+
     <section id="footer" className=" dark:bg-inherit">
       <FooterMain/>
     </section>
+    
 
    </div>
     
