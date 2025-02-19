@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import Sidebar from "../components/Sidebar";
 import ProjectCards from "../components/ProjectCards";
-import { FloatingNavDemo } from '../components/navbar';
 import { MainNavbar } from '../components/MainNavbar';
 const page = () => {
   const [category, setCategory] = useState<string>("all");

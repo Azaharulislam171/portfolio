@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Notable } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
+import FooterSmall from "./components/FooterSmall"; // Import FooterSmall component
 
 // Import Google Notable font
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
@@ -26,7 +27,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">
+              {children}
+            </main>
+            <FooterSmall /> {/* Add FooterSmall component */}
+          </div>
         </ThemeProvider>
       </body>
     </html>

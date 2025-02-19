@@ -26,8 +26,8 @@ export default function BagOfPopcorns() {
         <Bubble text="Bag of Words Meets Bag of Popcorns" />
           
         </h1>
-        <div className="flex justify-between">
-          <p className="text-black-50 md:w-1/3 text-md font-serif">
+        <div className="flex flex-col md:flex-row md:justify-between items-end">
+          <p className="text-black-50 md:w-1/2 text-md font-serif">
             This Kaggle project focuses on performing sentiment analysis on movie
             reviews using the Bag of Words model. The objective is to classify the
             reviews as positive or negative. I implemented various Natural Language
