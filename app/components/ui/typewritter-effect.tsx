@@ -2,7 +2,7 @@
 
 import { cn } from "@/utils/cn";
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 
 export const TypewriterEffect = ({
   words,
@@ -16,7 +16,7 @@ export const TypewriterEffect = ({
   className?: string;
   cursorClassName?: string;
 }) => {
-  // split text inside of words into array of characters
+  // Split text inside of words into an array of characters
   const wordsArray = words.map((word) => {
     return {
       ...word,
@@ -26,7 +26,9 @@ export const TypewriterEffect = ({
 
   const [scope, animate] = useAnimate();
   const isInView = useInView(scope);
-  useEffect(() => {
+
+  // Wrap the animate function in useCallback to ensure stability
+  const runAnimation = useCallback(() => {
     if (isInView) {
       animate(
         "span",
@@ -42,7 +44,11 @@ export const TypewriterEffect = ({
         }
       );
     }
-  }, [isInView]);
+  }, [isInView, animate]);
+
+  useEffect(() => {
+    runAnimation();
+  }, [runAnimation]);
 
   const renderWords = () => {
     return (
@@ -69,6 +75,7 @@ export const TypewriterEffect = ({
       </motion.div>
     );
   };
+
   return (
     <div
       className={cn(
