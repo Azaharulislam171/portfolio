@@ -1,6 +1,6 @@
 "use client";
 
-
+import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
@@ -27,9 +27,11 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image src="/bg.png" width={100} height={100} alt="bgimg" />
                 </div>
-                <img
+                <Image
+                  width={800}
+                  height={800}
                   src={img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
@@ -60,7 +62,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image src={icon} width={100} height={100} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>

@@ -78,7 +78,7 @@ const MyGrid = () => {
 
         return (
            <>
-           <div className=" flex min-w-full h-full items-end dark:border justify-end rounded-r-lg  " >
+           <div className=" flex min-w-full h-full items-start dark:border justify-center rounded-r-lg  " >
             <div className=" bg-white-/20 dark:bg-black/95 backdrop-blur-md dark:backdrop-blur-none border border-white/20 dark:border-none rounded-lg shadow-xl p-2  ">
              <Image src='/asset/asset_ux@4x.png' width={400} height={300} alt='UX' className='rounded-sm'/>
              
@@ -121,7 +121,7 @@ const MyGrid = () => {
 
         return (
            <>
-           <div className=" flex min-w-full h-full items-end   dark:border justify-end  " >
+           <div className=" flex min-w-full h-full items-start   dark:border justify-center  " >
             <div className=" bg-white-/20 dark:bg-black/95 backdrop-blur-md dark:backdrop-blur-none border border-white/20 dark:border-none rounded-lg shadow-xl p-2  ">
              <Image src='/asset/asset_web@4x.png' width={400} height={400} alt='UX' className='rounded-sm'/>
              
@@ -157,7 +157,7 @@ const MyGrid = () => {
       const SkeletonGoal = () => {
         return (
           <>
-            <div className="flex min-w-full h-full items-end  dark:border justify-end rounded-lg">
+            <div className="flex min-w-full h-full items-start  dark:border justify-center  rounded-lg">
               <div className="bg-white-/20 dark:bg-black/95 backdrop-blur-md dark:backdrop-blur-none border border-white/20 dark:border-none rounded-lg shadow-xl p-2">
                 <Image src="/asset/asset_goals@4x.png" width={400} height={300} alt="AI & ML Goals" className="rounded-sm" />
       

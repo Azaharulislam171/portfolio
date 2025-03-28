@@ -102,13 +102,13 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      category:"data-science",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-      caseLink:"/listy",
+      title: "POS Reimagined",
+      category:"mentored-projects",
+      des: "Developed a POS system for enhancing business processes using Python Tkinter",
+      img: "/POS1.png",
+      iconLists: [],
+      link: "https://codehs.com/sandbox/aislam2024/tech-pos-copy2-final",
+      caseLink:"/projects/POS_CodeHS",
     },
   ];
   

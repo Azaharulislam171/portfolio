@@ -23,7 +23,7 @@ export default function Point_of_sale_1() {
               The POS system enables businesses to manage sales, update inventory, process payments, and generate receipts seamlessly. With both admin and customer-facing interfaces, it allows for smooth operations across various retail settings. The system’s modular design also makes it adaptable to different business models, offering the flexibility needed to grow and evolve with changing business needs.
             </p>
             <div className="flex flex-row md:flex-col gap-1 mt-4 md:mt-0">
-              <Link href="https://www.figma.com/design/zSLLsyriWJWkVPjmGvrM9C/TechPOS-(Copy)-(Copy)?node-id=0-1&t=DgBpuRH0YGNfdIdk-1">
+              <Link href="https://www.figma.com/design/zSLLsyriWJWkVPjmGvrM9C/TechPOS-(Copy)-(Copy)?node-id=0-1&t=DgBpuRH0YGNfdIdk-1" target="_blank" rel="noopener noreferrer">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -33,7 +33,7 @@ export default function Point_of_sale_1() {
                 </button>
               </Link>
 
-              <Link href="https://docs.google.com/document/d/1DrvxVu5UI-13nD9cNHrBulmjErHrLUIKhsvLs0C47Lw/edit?usp=sharing">
+              <Link href="https://docs.google.com/document/d/1DrvxVu5UI-13nD9cNHrBulmjErHrLUIKhsvLs0C47Lw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -43,7 +43,7 @@ export default function Point_of_sale_1() {
                 </button>
               </Link>
 
-              <Link href="https://codehs.com/sandbox/kettlen617993/tech-pos-copy2-final?collaborate=-OC9H2Q8DUJkzeZVypcM">
+              <Link href="https://codehs.com/sandbox/kettlen617993/tech-pos-copy2-final?collaborate=-OC9H2Q8DUJkzeZVypcM" target="_blank" rel="noopener noreferrer">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -57,13 +57,16 @@ export default function Point_of_sale_1() {
             Tech Stack: Python Tkinter, MySQL
           </p>
         </div>
-        <h3 className="text-xl md:text-4xl font-serif"> Contributors </h3>
-        <div className="flex  justify-start gap-2 mt-8">
-          <span className="bg-slate-950 dark:bg-slate-500 text-white rounded-lg p-2"><CodeXmlIcon className="w-4 h-4 "></CodeXmlIcon>    Dev- Gabriel Espinoza</span>
-          <span className="bg-slate-950 dark:bg-slate-500 text-white rounded-lg p-2"><CodeXmlIcon className="w-4 h-4 "></CodeXmlIcon> Kettlen Souza Perera</span>
-          <span className="bg-slate-950 dark:bg-slate-500 text-white rounded-lg p-2"><FigmaIcon className="w-4 h-4 "></FigmaIcon> Cristopher Dos Santos</span>
-          <span className="bg-slate-950 dark:bg-slate-500 text-white rounded-lg p-2"><FigmaIcon className="w-4 h-4 "></FigmaIcon> Kelly Michelle Campos</span>
+        <div className="font-bold font-serif text-blue-400 dark:text-indigo-500 py-4"> 
+        <h3 className="text-xl md:text-5xl text-black dark:text-indigo-500 font-bold font-serif py-4"> Contributors </h3>
+        <div className="flex justify-start gap-2 mt-8">
+          <span className="border border-blue-400 dark:border-indigo-300  rounded-lg p-2"><CodeXmlIcon className="w-4 h-4" /> Gabriel Espinoza</span>
+          <span className="border border-blue-400 dark:border-indigo-300  rounded-lg p-2"><CodeXmlIcon className="w-4 h-4" /> Kettlen Souza Perera</span>
+          <span className="border border-blue-400 dark:border-indigo-300  rounded-lg p-2"><FigmaIcon className="w-4 h-4" /> Cristopher Dos Santos</span>
+          <span className="border border-blue-400 dark:border-indigo-300  rounded-lg p-2"><FigmaIcon className="w-4 h-4" /> Kelly Michelle Campos</span>
         </div>
+        </div>
+       
 
         <div className="flex items-center justify-center pt-8">
           <Image
@@ -75,7 +78,7 @@ export default function Point_of_sale_1() {
         </div>
 
         <div className="flex justify-end my-4">
-          <Link href="/projects/BagOfPopcorns">
+          <Link href="/projects/BagOfPopcorns" target="_blank" rel="noopener noreferrer">
             <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -85,7 +88,7 @@ export default function Point_of_sale_1() {
           </Link>
         </div>
 
-        <FooterSmall />
+        
       </div>
     </>
   );

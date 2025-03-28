@@ -52,9 +52,7 @@ export default function Listy() {
             </Link>
         </div>
         
-      <div> 
-        <FooterSmall/>
-      </div>
+      
     </div>
    
 

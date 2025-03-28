@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
+import Image from 'next/image'; // Import the Image component from next/image
 
 const RandomMotionBox = () => {
   const logoRef = useRef<HTMLDivElement>(null);
@@ -64,7 +65,7 @@ const RandomMotionBox = () => {
 
       {/* Logo */}
       <div ref={logoRef} className="flex items-start">
-        <img src="/ai.png" alt="Logo" className="w-16 h-16 " />
+        <Image src="/ai.png" alt="Description" width={500} height={300} /> {/* Use the Image component */}
       </div>
 
       {/* Links */}

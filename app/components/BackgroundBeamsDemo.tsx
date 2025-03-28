@@ -4,7 +4,7 @@ import { BackgroundBeams } from "./ui/background-beams";
 import { TypewriterEffectSmooth } from "./ui/typewritter-effect";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import AnimatedImage from "./animated_image";
+import AnimatedImage from "./Animated_image";
 import AnimatedButton from "./ui/animatedButton";
 
 export function BackgroundBeamsDemo() {

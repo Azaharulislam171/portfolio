@@ -1,7 +1,7 @@
 "use client";
-
+import Image from "next/image";
 import { cn } from "@/lib/utils";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 
 export const InfiniteMovingCards = ({
   items,
@@ -23,11 +23,9 @@ export const InfiniteMovingCards = ({
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
 
-  useEffect(() => {
-    addAnimation();
-  }, []);
   const [start, setStart] = useState(false);
-  function addAnimation() {
+
+  const addAnimation = useCallback(() => {
     if (containerRef.current && scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
 
@@ -42,8 +40,13 @@ export const InfiniteMovingCards = ({
       getSpeed();
       setStart(true);
     }
-  }
-  const getDirection = () => {
+  }, [direction, speed]);
+
+  useEffect(() => {
+    addAnimation();
+  }, [addAnimation]);
+
+  const getDirection = useCallback(() => {
     if (containerRef.current) {
       if (direction === "left") {
         containerRef.current.style.setProperty(
@@ -57,8 +60,9 @@ export const InfiniteMovingCards = ({
         );
       }
     }
-  };
-  const getSpeed = () => {
+  }, [direction]);
+
+  const getSpeed = useCallback(() => {
     if (containerRef.current) {
       if (speed === "fast") {
         containerRef.current.style.setProperty("--animation-duration", "20s");
@@ -68,7 +72,8 @@ export const InfiniteMovingCards = ({
         containerRef.current.style.setProperty("--animation-duration", "120s");
       }
     }
-  };
+  }, [speed]);
+
   return (
     <div
       ref={containerRef}
@@ -88,7 +93,6 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 dark:border-slate-800 px-8 py-6 md:w-[450px]"
-            
             key={item.name}
           >
             <blockquote>
@@ -102,18 +106,22 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src="./profile.svg"
-                    alt="profile"/>
+                    <Image
+                      src="./profile.svg"
+                      width={100}
+                      height={100}
+                      className="w-10 h-10 rounded-full"
+                      alt="profile"
+                    />
                   </div>
                   <div className="flex flex-col gap-1">
-                  <span className=" text-md leading-[1.6] text-gray-800  dark:text-gray-400 font-normal">
-                    {item.name}
-                  </span>
-                  <span className=" text-md leading-[1.6] text-gray-800 dark:text-gray-400 font-normal">
-                    {item.title}
-                  </span>
+                    <span className=" text-md leading-[1.6] text-gray-800  dark:text-gray-400 font-normal">
+                      {item.name}
+                    </span>
+                    <span className=" text-md leading-[1.6] text-gray-800 dark:text-gray-400 font-normal">
+                      {item.title}
+                    </span>
                   </div>
-                 
                 </span>
               </div>
             </blockquote>
