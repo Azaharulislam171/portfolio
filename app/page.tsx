@@ -37,7 +37,7 @@ export default function Home() {
             <AnimatedImage
               src="/logo_ai.png"
               alt="Description of the image"
-              className="w-120 h-120"
+              className="w-80 h-80"
             />
           </div>
           <div>
