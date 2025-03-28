@@ -3,11 +3,11 @@ import RecentProjeccts from "./components/RecentProjeccts";
 import Experience from "./components/Experience";
 import Approach from "./components/Approach";
 import { BackgroundBeams } from "./components/ui/background-beams";
-import AnimatedImage from "./components/Animated_image";
 import { TypewriterEffectSmooth } from "./components/ui/typewritter-effect";
 import AnimatedButton from "./components/ui/animatedButton";
 import MyGrid from "./components/MyGrid";
 import GetInTouch from "./components/FooterMain";
+import AnimatedImage from "./components/Animated_image";
 
 export default function Home() {
   const words = [
