@@ -19,7 +19,7 @@ const FooterSmall = () => {
           {socialMedia.map((info) => (
             <div
               key={info.id}
-              className="w-16 h-16 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75  rounded-lg border-4 border-black ;"
+              className="w-16 h-16 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75  rounded-lg border-2 border-blue-400 dark:border-indigo-500 ;"
               onClick={() => info.link && window.open(info.link, "_blank")} // Open link in a new tab
             >
               
