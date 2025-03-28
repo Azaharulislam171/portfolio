@@ -1,3 +1,4 @@
+import { FaKaggle,FaGithub, FaLinkedin } from "react-icons/fa6";
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -217,20 +218,21 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
-      link: "https://github.com/Azaharulislam171"
+      link: "https://github.com/azaharulislam171",
+      icon: <FaGithub/>,
+      
     },
     {
       id: 2,
-      img: "/kaggle-brands-solid.svg",
-      link: "https://www.kaggle.com/azaharulislam"
-
+      link: "https://linkedin.com/in/azaharulislam171",
+      icon: <FaLinkedin/>,
+      
     },
     {
       id: 3,
-      img: "/link.svg",
-      link: "https://linkedin.com/in/Azaharulislam171"
-
+      link: "https://kaggle.com/azaharulislam",
+      icon: <FaKaggle/>,
+      
     },
   ];
 
