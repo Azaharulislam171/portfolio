@@ -7,8 +7,8 @@ const page = () => {
   return (
  <>
  <MainNavbar/>
- <section id="classOf2025" className=''>
- <div className='mx-auto'>
+ <section id="classOf2025" className='py-4'>
+ <div className='md:mx-12 lg:mx-16'>
   <h2 className='  sm:text-2xl md:text-3xl lg:text-5xl font-bold notable-headings m-4 tracking-widest underline underline-offset-4 py-5'> Graduating Class of 2025</h2>
   <div className="m-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {students2025.map(student => (
