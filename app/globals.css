@@ -29,7 +29,7 @@
 
     /* Font Definitions */
     --font-inter: 'Inter', sans-serif;
-    --font-notable: 'Notable', sans-serif;
+    --font-notable: 'Audiowide', cursive; /* Switch to Audiowide font */
   }
 
   .dark {
@@ -64,6 +64,6 @@
     font-family: var(--font-inter); /* Default font for the body */
   }
   .notable-headings {
-    font-family: var(--font-notable); /* Apply Notable font to elements with this class */
+    font-family: var(--font-notable); /* Apply Audiowide font to elements with this class */
   }
 }
