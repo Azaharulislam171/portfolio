@@ -303,6 +303,16 @@ export const navItems = [
       intro: "Jesus Montalvo is a remarkably talented and intuitive problem-solver whose work consistently reflects depth, originality, and technical excellence. While he tends to prefer working independently and brings a laid-back energy to the classroom, Jesus consistently delivers high-caliber results that speak for themselves. His ability to analyze and resolve complex coding challenges with precision and creativity sets him apart. Whether debugging intricate logic or engineering efficient algorithms, Jesus approaches each task with quiet confidence and sharp focus. Though not always the most punctual, his strong individual drive and exceptional problem-solving skills make him a standout coder whose work rivals that of professionals. Jesus is the kind of developer who thrives in environments where autonomy and technical innovation are valued—qualities that will no doubt serve him well in a successful future in computer science.",
       linkedin: "" ,
       img:"/2025_jesus.png"
+    },
+
+    {
+      id:5,
+      first_name:"Jairo ",
+      last_name:"Vazquez",
+      portfolio: "https://sites.google.com/view/jairos-porfolio/home",  // Add Kenny's portfolio link if available
+      intro: "Jesus Montalvo is a remarkably talented and intuitive problem-solver whose work consistently reflects depth, originality, and technical excellence. While he tends to prefer working independently and brings a laid-back energy to the classroom, Jesus consistently delivers high-caliber results that speak for themselves. His ability to analyze and resolve complex coding challenges with precision and creativity sets him apart. Whether debugging intricate logic or engineering efficient algorithms, Jesus approaches each task with quiet confidence and sharp focus. Though not always the most punctual, his strong individual drive and exceptional problem-solving skills make him a standout coder whose work rivals that of professionals. Jesus is the kind of developer who thrives in environments where autonomy and technical innovation are valued—qualities that will no doubt serve him well in a successful future in computer science.",
+      linkedin: "" ,
+      img:"/2025_jairo.png"
     }
     // Add more students here
   ];
