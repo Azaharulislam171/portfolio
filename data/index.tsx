@@ -270,7 +270,7 @@ export const navItems = [
       id: 1,
       first_name: "Gabriel ",
       last_name: "Espinoza",
-      portfolio: "https://sites.google.com/view/mikayla-long-cs-portfolio/home",
+      portfolio: "https://sites.google.com/view/gabrieldjespinoza/home",
       intro: "Gabriel Espinoza is an exceptionally talented student whose natural affinity for programming sets him apart as one of the sharpest in the class. With an innate ability to grasp complex concepts and an unwavering focus on precision, Gabriel consistently takes on the most challenging projects, demonstrating both technical mastery and creative problem-solving. He is a regular candidate for the teacher of the day, often helping his peers understand difficult topics with clarity and patience. His determination and skills make it clear that Gabriel is destined for a high-achieving career in computer science, where his potential will undoubtedly lead to great success",
       linkedin: "https://www.linkedin.com/in/mikayla-e-long",
       img:"/2025_gabriel.jpg"
