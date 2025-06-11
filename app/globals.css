@@ -29,7 +29,7 @@
 
     /* Font Definitions */
     --font-inter: 'Inter', sans-serif;
-    --font-notable: 'Notable', cursive; /* Switch to Audiowide font */
+    --font-notable: 'Notable'; /* Switch to Audiowide font */
   }
 
   .dark {

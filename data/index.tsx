@@ -289,7 +289,7 @@ export const navItems = [
       id:3,
       first_name:"Ramon ",
       last_name:"Parachio",
-      portfolio: "https://sites.google.com/nps.k12.nj.us/ramonparachico/projects",  // Add Kenny's portfolio link if available
+      portfolio: "https://portfolio-rampar.netlify.app/",  
       intro: "Ramon Parachio is a highly skilled and self-driven student who has consistently excelled in advanced computer science projects. Notably, he developed a sophisticated restaurant management system using Python and Tkinter, showcasing his ability to integrate technical skills with real-world applications. Ramon has also mastered Git version control and GitHub, demonstrating proficiency in collaborative coding environments. His ability to work independently with minimal guidance is complemented by his capability to take on leadership roles, inspiring and guiding peers through complex challenges. Ramon’s technical expertise, resourcefulness, and leadership make him a standout student poised for success in his future endeavors.",
       linkedin: "" ,
       img:"/2025_ramon.jpg"
@@ -299,7 +299,7 @@ export const navItems = [
       id:4,
       first_name:"Jesus ",
       last_name:"Montolavo",
-      portfolio: "https://profoextoic.netlify.app/",  // Add Kenny's portfolio link if available
+      portfolio: "https://profoextoic.netlify.app/",  // Add  portfolio link if available
       intro: "Jesus Montalvo is a remarkably talented and intuitive problem-solver whose work consistently reflects depth, originality, and technical excellence. While he tends to prefer working independently and brings a laid-back energy to the classroom, Jesus consistently delivers high-caliber results that speak for themselves. His ability to analyze and resolve complex coding challenges with precision and creativity sets him apart. Whether debugging intricate logic or engineering efficient algorithms, Jesus approaches each task with quiet confidence and sharp focus. Though not always the most punctual, his strong individual drive and exceptional problem-solving skills make him a standout coder whose work rivals that of professionals. Jesus is the kind of developer who thrives in environments where autonomy and technical innovation are valued—qualities that will no doubt serve him well in a successful future in computer science.",
       linkedin: "" ,
       img:"/2025_jesus.png"
